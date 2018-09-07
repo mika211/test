@@ -17,7 +17,7 @@ public class Monster extends Life {
 
 	public void attack(Life enemy) {
 		System.out.println(String.format("%sの攻撃", super.getName()));
-		enemy.recieveDamage(this.power);
+		enemy.receiveDamage(this.power);
 	}
 	
 	private void setPower(int power) {
