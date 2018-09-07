@@ -8,7 +8,7 @@ public class Main {
 		Yatagarasu  iseki = new Yatagarasu("iseki");
 		Yatagarasu  sakata = new Yatagarasu("sakata");
 
-		Zomubie  kanopi = new Zomubie("yamagami");
+		Zombie  kanopi = new Zombie("yamagami");
 
 		for(sakata.getHp() > 0){
 
