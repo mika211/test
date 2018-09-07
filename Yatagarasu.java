@@ -1,5 +1,3 @@
-package yatagarasu;
-
 public class Yatagarasu extends Monster implements Bird{
 
 	public Yatagarasu(String name){
