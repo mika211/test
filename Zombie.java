@@ -2,7 +2,7 @@
  * @author gongonkun
  */
 public class Zombie extends Monster implements Human {  
-  public Zombie() { this.Zombie("NoName"); }
+  public Zombie() { this("NoName"); }
   public Zombie(String name) {
     super(name);
   }
